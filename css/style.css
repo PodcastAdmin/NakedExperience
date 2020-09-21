@@ -1,0 +1,111 @@
+:root{
+  --gray-light: #e3e6e8;
+  --gray: #919aa1;
+  --gray-dark: #454d54;
+  --signature-light: #878bc5;
+  --signature: #5359ac;
+  --signature-dark: #282c57;
+  --signature-opaque: rgba(40, 44, 87, 0.5);
+  --bkg: #16161d;
+}
+
+@font-face {
+  font-family: sigfont;
+  src: url(A_Font_with_Serifs.ttf);
+}
+
+body {
+  padding-top: 54px;
+  color: var(--gray);
+  background-color: var(--bkg);
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 12rem;
+  }
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-family: sigfont, verdana, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: var(--gray-light);
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.mainsub {
+    color: var(--gray-light) !important;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: var(--gray-dark);
+  color: var(--white) !important;
+  border-radius: 15%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: var(--signature);
+}
+
+.bg-primary {
+  background-color: var(--signature-dark) !important;
+}
+
+.text-primary {
+  color: var(--signature) !important;
+}
+
+a {
+  color: var(--signature);
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+a:hover, a:focus, a:active {
+  color: var(--signature-light);
+}

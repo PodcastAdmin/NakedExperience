@@ -1,0 +1,52 @@
+.modal-content {
+    border-radius: 10px;
+    background-color: var(--signature-dark);
+}
+
+.modal .modal-title {
+  color: var(--gray-dark);
+  font-size: 2.25rem;
+  line-height: 2em;
+}
+
+@media (min-width: 992px) {
+  .modal .modal-title {
+    font-size: 3rem;
+    line-height: 2.5rem;
+  }
+}
+
+.modal .modal-close {
+  position: absolute;
+  z-index: 1;
+  right: 1.5rem;
+  top: 1rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  opacity: 1;
+}
+
+.modal-close {
+  color: var(--signature);
+  background: none;
+  border: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.modal-close:hover {
+  color: var(--signature-light);
+}
+
+.modal-body {
+  padding-top: 4rem;
+}
+
+/* override modal fade behavior */
+.fade {
+    opacity: 1;
+
+    -webkit-transition: opacity 0.1s linear;
+    transition: opacity 0.1s linear;
+}
+
