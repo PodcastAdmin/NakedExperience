@@ -37,16 +37,7 @@ h6 {
   color: var(--white);
 }
 
-h1 {
-  font-size: 6rem;
-  line-height: 5.5rem;
-}
-
-h2 {
-  font-size: 3.5rem;
-}
-
-h3 {
+h5 {
   color: var(--gray-light);
   font-weight: 500;
   font-size: 2rem;
@@ -105,4 +96,8 @@ a {
 
 a:hover, a:focus, a:active {
   color: var(--signature-light);
+}
+
+.navbar {
+    background-color: var(--signature-dark);
 }

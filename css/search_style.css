@@ -3,8 +3,9 @@
     margin-top: auto;
     height: 50px;
     background-color: var(--white);
-    border-radius: 10px;
+    border-radius: 2px;
     padding: 0;
+    position:relative;
 }
 
 .search_input{
@@ -20,7 +21,7 @@
 
 .searchbar:hover > .search_input{
     padding: 0 10px;
-    width: 300px;
+    width: 100px;
     caret-color:var(--signature);
     color: black;
     transition: width 0.4s linear, padding-left 0.4s linear;
@@ -37,13 +38,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 2px;
     color:var(--signature);
     background: var(--gray-light);
     text-decoration:none;
 }
 
-.right_justify{
-    display:flex;
-    float:right;
+
+@media (min-width: 660px) {
+  .searchbar:hover > .search_input {
+      width: 300px;
+  }
 }
