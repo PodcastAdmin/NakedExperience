@@ -34,7 +34,6 @@ h5,
 h6 {
   font-family: sigfont, verdana, sans-serif;
   font-weight: 700;
-  text-transform: uppercase;
   color: var(--white);
 }
 
@@ -48,7 +47,6 @@ h2 {
 }
 
 h3 {
-  text-transform: uppercase;
   color: var(--gray-light);
   font-weight: 500;
   font-size: 2rem;
@@ -60,7 +58,6 @@ p.lead {
 }
 
 .subheading {
-  text-transform: uppercase;
   font-weight: 500;
   font-size: 1.5rem;
 }
