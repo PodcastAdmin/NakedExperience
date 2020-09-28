@@ -15,7 +15,7 @@
 }
 
 body {
-    padding-top: 200px;
+    padding-top: 150px;
     color: var(--gray);
     background-color: var(--bkg);
 }
@@ -41,21 +41,12 @@ h6 {
 
 .cta-head {
     text-align: center;   
-    width:600px;
-    margin: 0 auto;
     text-transform: uppercase;
     line-height: 3rem;
 }
 
 .cta-body {
     padding: 2rem;
-    text-align: center;   
-    width:500px;
-    margin: 0 auto;
-}
-
-.social-icons {
-    text-align: center;
 }
 
 .social-icons a {
